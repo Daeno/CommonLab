@@ -1,0 +1,35 @@
+SNR: 0 (dB), Duration:2121, SER: 0.471476, SER(theoretical): 0.479178, E_0: 0.8, E_b: 2
+SNR: 0.5 (dB), Duration:2235, SER: 0.447427, SER(theoretical): 0.448793, E_0: 0.897615, E_b: 2.24404
+SNR: 1 (dB), Duration:2430, SER: 0.411523, SER(theoretical): 0.41736, E_0: 1.00714, E_b: 2.51785
+SNR: 1.5 (dB), Duration:2544, SER: 0.393082, SER(theoretical): 0.385072, E_0: 1.13003, E_b: 2.82508
+SNR: 2 (dB), Duration:2855, SER: 0.350263, SER(theoretical): 0.352166, E_0: 1.26791, E_b: 3.16979
+SNR: 2.5 (dB), Duration:3197, SER: 0.312793, SER(theoretical): 0.318928, E_0: 1.42262, E_b: 3.55656
+SNR: 3 (dB), Duration:3590, SER: 0.278552, SER(theoretical): 0.285689, E_0: 1.59621, E_b: 3.99052
+SNR: 3.5 (dB), Duration:3925, SER: 0.254777, SER(theoretical): 0.252822, E_0: 1.79098, E_b: 4.47744
+SNR: 4 (dB), Duration:4568, SER: 0.218914, SER(theoretical): 0.220729, E_0: 2.00951, E_b: 5.02377
+SNR: 4.5 (dB), Duration:5106, SER: 0.195848, SER(theoretical): 0.189832, E_0: 2.25471, E_b: 5.63677
+SNR: 5 (dB), Duration:6015, SER: 0.166251, SER(theoretical): 0.160549, E_0: 2.52982, E_b: 6.32456
+SNR: 5.5 (dB), Duration:7477, SER: 0.133743, SER(theoretical): 0.13328, E_0: 2.83851, E_b: 7.09627
+SNR: 6 (dB), Duration:9121, SER: 0.109637, SER(theoretical): 0.108378, E_0: 3.18486, E_b: 7.96214
+SNR: 6.5 (dB), Duration:11653, SER: 0.0858148, SER(theoretical): 0.0861255, E_0: 3.57347, E_b: 8.93367
+SNR: 7 (dB), Duration:16234, SER: 0.0615991, SER(theoretical): 0.0667155, E_0: 4.0095, E_b: 10.0237
+SNR: 7.5 (dB), Duration:20392, SER: 0.0490388, SER(theoretical): 0.0502328, E_0: 4.49873, E_b: 11.2468
+SNR: 8 (dB), Duration:27538, SER: 0.0363135, SER(theoretical): 0.0366468, E_0: 5.04766, E_b: 12.6191
+SNR: 8.5 (dB), Duration:39352, SER: 0.0254117, SER(theoretical): 0.0258125, E_0: 5.66357, E_b: 14.1589
+SNR: 9 (dB), Duration:56859, SER: 0.0175874, SER(theoretical): 0.0174842, E_0: 6.35463, E_b: 15.8866
+SNR: 9.5 (dB), Duration:88149, SER: 0.0113444, SER(theoretical): 0.0113383, E_0: 7.13001, E_b: 17.825
+SNR: 10 (dB), Duration:146750, SER: 0.00681431, SER(theoretical): 0.00700429, E_0: 8, E_b: 20
+SNR: 10.5 (dB), Duration:245034, SER: 0.00408107, SER(theoretical): 0.00409869, E_0: 8.97615, E_b: 22.4404
+SNR: 11 (dB), Duration:448843, SER: 0.00222795, SER(theoretical): 0.00225755, E_0: 10.0714, E_b: 25.1785
+SNR: 11.5 (dB), Duration:841627, SER: 0.00118817, SER(theoretical): 0.00116208, E_0: 11.3003, E_b: 28.2508
+SNR: 12 (dB), Duration:1762707, SER: 0.000567309, SER(theoretical): 0.000554558, E_0: 12.6791, E_b: 31.6979
+SNR: 12.5 (dB), Duration:4213371, SER: 0.00023734, SER(theoretical): 0.000243127, E_0: 14.2262, E_b: 35.5656
+SNR: 13 (dB), Duration:4058188, SER: 9.85662e-05, SER(theoretical): 9.69328e-05, E_0: 15.9621, E_b: 39.9052
+SNR: 13.5 (dB), Duration:10711440, SER: 3.73433e-05, SER(theoretical): 3.47441e-05, E_0: 17.9098, E_b: 44.7744
+SNR: 14 (dB), Duration:36425320, SER: 1.09814e-05, SER(theoretical): 1.10528e-05, E_0: 20.0951, E_b: 50.2377
+SNR: 14.5 (dB), Duration:134135316, SER: 2.98206e-06, SER(theoretical): 3.07586e-06, E_0: 22.5471, E_b: 56.3677
+SNR: 15 (dB), Duration:573415906, SER: 6.97574e-07, SER(theoretical): 7.36742e-07, E_0: 25.2982, E_b: 63.2456
+SNR: 15.5 (dB), Duration:2600068873, SER: 1.53842e-07, SER(theoretical): 1.49144e-07, E_0: 28.3851, E_b: 70.9627
+SNR: 16 (dB), Duration:3737690325, SER: 2.67545e-08, SER(theoretical): 2.50008e-08, E_0: 31.8486, E_b: 79.6214
+(noise testing) mean: 0.000815871  convariance: 0.999589
+execution time: 01:06:06.136997 (s)

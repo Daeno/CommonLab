@@ -1,0 +1,79 @@
+sending: 10 code: (-6 ,2)
+sending: 1 code: (-6 ,-2)
+sending: 0 code: (-2 ,-2)
+sending: 4 code: (2 ,-2)
+sending: 7 code: (6 ,-6)
+sending: 15 code: (6 ,6)
+sending: 7 code: (6 ,-6)
+sending: 11 code: (-6 ,6)
+sending: 5 code: (2 ,-6)
+sending: 9 code: (-2 ,6)
+sending: 6 code: (6 ,-2)
+sending: 2 code: (-2 ,-6)
+sending: 2 code: (-2 ,-6)
+sending: 4 code: (2 ,-2)
+sending: 0 code: (-2 ,-2)
+sending: 2 code: (-2 ,-6)
+sending: 11 code: (-6 ,6)
+sending: 7 code: (6 ,-6)
+sending: 8 code: (-2 ,2)
+sending: 15 code: (6 ,6)
+SNR: 0 (dB), Duration:2085, SER: 0.479616, SER(theoretical): 0.479178, E_0: 0.8, E_b: 2
+	time: 1183 (us)
+SNR: 0.5 (dB), Duration:2280, SER: 0.438596, SER(theoretical): 0.448793, E_0: 0.897615, E_b: 2.24404
+	time: 1280 (us)
+SNR: 1 (dB), Duration:2500, SER: 0.4, SER(theoretical): 0.41736, E_0: 1.00714, E_b: 2.51785
+	time: 1388 (us)
+SNR: 1.5 (dB), Duration:2642, SER: 0.378501, SER(theoretical): 0.385072, E_0: 1.13003, E_b: 2.82508
+	time: 1454 (us)
+SNR: 2 (dB), Duration:2800, SER: 0.357143, SER(theoretical): 0.352166, E_0: 1.26791, E_b: 3.16979
+	time: 1576 (us)
+SNR: 2.5 (dB), Duration:3112, SER: 0.321337, SER(theoretical): 0.318928, E_0: 1.42262, E_b: 3.55656
+	time: 1798 (us)
+SNR: 3 (dB), Duration:3437, SER: 0.290951, SER(theoretical): 0.285689, E_0: 1.59621, E_b: 3.99052
+	time: 1883 (us)
+SNR: 3.5 (dB), Duration:4085, SER: 0.244798, SER(theoretical): 0.252822, E_0: 1.79098, E_b: 4.47744
+	time: 2454 (us)
+SNR: 4 (dB), Duration:4568, SER: 0.218914, SER(theoretical): 0.220729, E_0: 2.00951, E_b: 5.02377
+	time: 2613 (us)
+SNR: 4.5 (dB), Duration:5057, SER: 0.197746, SER(theoretical): 0.189832, E_0: 2.25471, E_b: 5.63677
+	time: 2832 (us)
+SNR: 5 (dB), Duration:5817, SER: 0.17191, SER(theoretical): 0.160549, E_0: 2.52982, E_b: 6.32456
+	time: 3179 (us)
+SNR: 5.5 (dB), Duration:7427, SER: 0.134644, SER(theoretical): 0.13328, E_0: 2.83851, E_b: 7.09627
+	time: 4066 (us)
+SNR: 6 (dB), Duration:9264, SER: 0.107945, SER(theoretical): 0.108378, E_0: 3.18486, E_b: 7.96214
+	time: 29820 (us)
+SNR: 6.5 (dB), Duration:11922, SER: 0.0838785, SER(theoretical): 0.0861255, E_0: 3.57347, E_b: 8.93367
+	time: 7265 (us)
+SNR: 7 (dB), Duration:14983, SER: 0.0667423, SER(theoretical): 0.0667155, E_0: 4.0095, E_b: 10.0237
+	time: 8142 (us)
+SNR: 7.5 (dB), Duration:20324, SER: 0.0492029, SER(theoretical): 0.0502328, E_0: 4.49873, E_b: 11.2468
+	time: 11163 (us)
+SNR: 8 (dB), Duration:25375, SER: 0.0394089, SER(theoretical): 0.0366468, E_0: 5.04766, E_b: 12.6191
+	time: 14208 (us)
+SNR: 8.5 (dB), Duration:38398, SER: 0.026043, SER(theoretical): 0.0258125, E_0: 5.66357, E_b: 14.1589
+	time: 21623 (us)
+SNR: 9 (dB), Duration:59381, SER: 0.0168404, SER(theoretical): 0.0174842, E_0: 6.35463, E_b: 15.8866
+	time: 33225 (us)
+SNR: 9.5 (dB), Duration:88041, SER: 0.0113583, SER(theoretical): 0.0113383, E_0: 7.13001, E_b: 17.825
+	time: 48480 (us)
+SNR: 10 (dB), Duration:136382, SER: 0.00733235, SER(theoretical): 0.00700429, E_0: 8, E_b: 20
+	time: 74518 (us)
+SNR: 10.5 (dB), Duration:242016, SER: 0.00413196, SER(theoretical): 0.00409869, E_0: 8.97615, E_b: 22.4404
+	time: 131740 (us)
+SNR: 11 (dB), Duration:445059, SER: 0.00224689, SER(theoretical): 0.00225755, E_0: 10.0714, E_b: 25.1785
+	time: 241904 (us)
+SNR: 11.5 (dB), Duration:867431, SER: 0.00115283, SER(theoretical): 0.00116208, E_0: 11.3003, E_b: 28.2508
+	time: 470362 (us)
+SNR: 12 (dB), Duration:1853912, SER: 0.0005394, SER(theoretical): 0.000554558, E_0: 12.6791, E_b: 31.6979
+	time: 1004588 (us)
+SNR: 12.5 (dB), Duration:4223465, SER: 0.000236772, SER(theoretical): 0.000243127, E_0: 14.2262, E_b: 35.5656
+	time: 2288174 (us)
+SNR: 13 (dB), Duration:10394735, SER: 9.62025e-05, SER(theoretical): 9.69328e-05, E_0: 15.9621, E_b: 39.9052
+	time: 5631236 (us)
+SNR: 13.5 (dB), Duration:29744297, SER: 3.36199e-05, SER(theoretical): 3.47441e-05, E_0: 17.9098, E_b: 44.7744
+	time: 16104077 (us)
+SNR: 14 (dB), Duration:25372758, SER: 1.18237e-05, SER(theoretical): 1.10528e-05, E_0: 20.0951, E_b: 50.2377
+	time: 13741491 (us)
+SNR: 14.5 (dB), Duration:92523903, SER: 3.24241e-06, SER(theoretical): 3.07586e-06, E_0: 22.5471, E_b: 56.3677
