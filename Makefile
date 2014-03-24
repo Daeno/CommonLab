@@ -1,6 +1,6 @@
 IDIR = ~/boost_1_55_0
 CC=g++
-CFLAGS=-I $(IDIR) -O2
+CFLAGS=-I $(IDIR) -O3
 
 ODIR=obj
 LDIR=../lib

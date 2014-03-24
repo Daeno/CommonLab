@@ -6,12 +6,12 @@
 #include <cmath>
 using namespace std;
 boost::random::mt19937 gen;
-boost::ramdon::uniform_int_distrubition<> source(0,15);
+boost::random::uniform_int_distribution<> source(0,15);
 boost::random::normal_distribution<long double> noise(0,1);
 
 struct point{
 	long double x,y;
-	point (){x=y=0};
+	point (){x=y=0;};
 	point (const point& a){x=a.x; y=a.y;}
 	point (long double _x, long double _y){x=_x; y=_y;}
 	point operator+(const point& a) const{
@@ -33,28 +33,113 @@ struct point{
 		return tmp;
 	}
 	point& operator~() {
-		this->x += noise(gen);
-		this->y += noise(gen);
+		x += noise(gen);
+		y += noise(gen);
 		return *this;
 	}
+	long double distanceSquare(point& a){
+		return pow(x-a.x,2) + pow(y-a.y,2);
+	}
+	friend ostream& operator<< (ostream&, point&);
 };
-ostream& operator<< (ostream& os, point& a){
+ostream& operator<< (ostream& os, point& a) {
 	os << "("<<a.x<<", "<<a.y<<")";
 	return os;
 }
 long double E_0 = 0;
 long double amp = 0;
 
-long double ebToe0(long double eb){
-	
+point gray_coding[]{
+	{-3,-3},
+	{-3,-1},
+	{-3, 3},
+	{-3, 1},
+	{-1,-3},
+	{-1,-1},
+	{-1, 3},
+	{-1, 1},
+	{ 3,-3},
+	{ 3,-1},
+	{ 3, 3},
+	{ 3, 1},
+	{ 1,-3},
+	{ 1,-1},
+	{ 1, 3},
+	{ 1, 1}
+};
+
+point encoding(int n){
+	return gray_coding[n];
 }
 
+void ebToe0(long double eb){
+	E_0 = 4.0*eb/10.0;
+	amp = sqrt(E_0);
+}
 
-void showResult();
+int min_dist(point& a, point* con, int num){
+	long double min_d = a.distanceSquare(con[0]);
+	int idx = 0;
+	for(int i=1;i<num;i++){
+		long double dd = a.distanceSquare(con[i]);
+		if(dd < min_d){
+			min_d = dd;
+			idx = i;
+		}
+	}
+	return idx;
+}
 
-void simulation();
+long double serThe(){
+	long double pe = 3.0/4.0*erfc(sqrt(E_0/2));
+	return 1-(1-pe)*(1-pe);
+}
+
+void showResult(long double SNR, int symbol_error, long long duration){
+	cout<< SNR << "\t" << (long double) symbol_error/duration << "\t" << serThe()<<"\t"<<E_0<<"\t"<<amp<<endl;
+}
+
+void simulation(long double SNR, int symbol_error) {
+	long double eb = 2*pow(10.0,SNR/10.0);
+	int sending, receiving;
+	point snd,rev;
+	long long error_cnt = 0, duration = 0;
+	ebToe0(eb);
+	point constallation[16];
+	for(int i=0;i<16;i++){
+		constallation[i] = encoding(i) * amp;
+	}
+	while(error_cnt < symbol_error){
+		duration++;
+		sending = source(gen);
+		snd = encoding(sending) * amp;
+		rev = ~snd;
+		receiving = min_dist(rev, constallation, 16);
+		if(receiving != sending){
+			error_cnt++;
+		}
+	}
+	showResult(SNR, symbol_error, duration);
+}
 
 int main(){
 	long double mean = 0, covariance = 0;
-	for()
+	int times = 54200;
+	for(int i=0;i<times;i++){
+		long double x = noise(gen);
+		mean += x;
+		covariance += x*x;
+	}
+	for(int i=0;i<2000;i++){
+		point a = encoding(source(gen)) * 2;
+		cout << a <<endl;
+	}
+	mean /= times;
+	covariance /= times;
+	
+	for(double i = 0;i<=16;i+=0.5){
+		simulation(i, 300);
+	}
+
+	cout << "noise test: mean "<< mean <<", covariance" << covariance << endl;
 }
